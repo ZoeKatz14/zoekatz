@@ -1,0 +1,13 @@
+.footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #66768F;
+        color: #C5D5E4;
+        padding: 1rem;
+      }
+
+      .email-link a {
+        color: #C5D5E4;
+        text-decoration: none;
+      }
