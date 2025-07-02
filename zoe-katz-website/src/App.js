@@ -1,14 +1,39 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import HomePage from './components/HomePage';
+import HomePage from './pages/HomePage';
+import Navbar from './components/Navbar';
+import ResearchPage from './pages/ResearchPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div>
-      <HomePage />
+    <div className="App">
       
-    </div>
+      <Router>
+      <Navbar/>
+        <Routes>
+          
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/research" element={<ResearchPage/>}/>
+
+        </Routes>
+      </Router>
+    </div>);
+  // return (
+  //   <div>
+  //   <Navbar />
+  //   <HomePage />
+  //   </div>
+          //   <Routes>
+
+          //     <Route>
+          //  <Route path="/" element={<HomePage />} />
+          //  <Route path="/research" element={<ResearchPage />} />
+          //  </Route>
+          //   {/* Add more routes for other pages */}
+          //   </Routes>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
@@ -25,7 +50,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-  );
+  // );
 }
 
 export default App;
