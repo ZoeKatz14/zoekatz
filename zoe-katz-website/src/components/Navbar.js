@@ -18,8 +18,8 @@ const Navbar=()=>{
                                         <div className='research'>
                                         <Link to="/zoekatz/research">research</Link>
                                         </div>
-                                        <div className='for-fun'>
-                                        <Link to="/zoekatz/for-fun">for fun</Link>
+                                        <div className='playground'>
+                                        <Link to="/zoekatz/playground">playground</Link>
                                         </div>
                                 </li>
                         </div>

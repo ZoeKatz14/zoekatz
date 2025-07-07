@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ResearchPage from './pages/ResearchPage';
 import FunPage from './pages/FunPage';
+import NotFoundPage from './pages/NotFoundPage';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 
@@ -18,7 +19,8 @@ function App() {
           <Route path="/" element={<Navigate to="/zoekatz" replace />}/>
           <Route path="/zoekatz" element={<HomePage/>}/>
           <Route path="/zoekatz/research" element={<ResearchPage/>}/>
-          <Route path="/zoekatz/for-fun" element={<FunPage/>}/>
+          <Route path="/zoekatz/playground" element={<FunPage/>}/>
+          <Route path="*" element={<NotFoundPage />} /> 
           {/* Add more routes for other pages */}
           
         </Routes>
