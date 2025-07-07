@@ -19,6 +19,7 @@ function App() {
           <Route path="/research" element={<ResearchPage/>}/>
           <Route path="/for-fun" element={<FunPage/>}/>
           {/* Add more routes for other pages */}
+          
         </Routes>
         <Footer />
       </Router>
