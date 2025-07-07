@@ -17,8 +17,8 @@ function App() {
         <Routes>      
           <Route path="/" element={<Navigate to="/zoekatz" replace />}/>
           <Route path="/zoekatz" element={<HomePage/>}/>
-          <Route path="/research" element={<ResearchPage/>}/>
-          <Route path="/for-fun" element={<FunPage/>}/>
+          <Route path="/zoekatz/research" element={<ResearchPage/>}/>
+          <Route path="/zoekatz/for-fun" element={<FunPage/>}/>
           {/* Add more routes for other pages */}
           
         </Routes>

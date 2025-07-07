@@ -16,10 +16,10 @@ const Navbar=()=>{
                                         <Link to="/zoekatz">about</Link>
                                         </div>
                                         <div className='research'>
-                                        <Link to="/research">research</Link>
+                                        <Link to="/zoekatz/research">research</Link>
                                         </div>
                                         <div className='for-fun'>
-                                        <Link to="/for-fun">for fun</Link>
+                                        <Link to="/zoekatz/for-fun">for fun</Link>
                                         </div>
                                 </li>
                         </div>
