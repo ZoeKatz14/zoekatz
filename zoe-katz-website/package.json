@@ -2,7 +2,7 @@
   "name": "zoe-katz-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZoeKatz14.github.io/zoe-katz-website",
+  "homepage": "https://zoekatz14.github.io/zoekatz/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
