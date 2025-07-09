@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zoekatz/static/css/main.2880692b.css",
-    "main.js": "/zoekatz/static/js/main.566bf7af.js",
+    "main.js": "/zoekatz/static/js/main.b5f2096f.js",
     "static/js/453.af180085.chunk.js": "/zoekatz/static/js/453.af180085.chunk.js",
     "static/media/headshot.png": "/zoekatz/static/media/headshot.c41e9878974e0dc767df.png",
     "index.html": "/zoekatz/index.html",
     "main.2880692b.css.map": "/zoekatz/static/css/main.2880692b.css.map",
-    "main.566bf7af.js.map": "/zoekatz/static/js/main.566bf7af.js.map",
+    "main.b5f2096f.js.map": "/zoekatz/static/js/main.b5f2096f.js.map",
     "453.af180085.chunk.js.map": "/zoekatz/static/js/453.af180085.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2880692b.css",
-    "static/js/main.566bf7af.js"
+    "static/js/main.b5f2096f.js"
   ]
 }
