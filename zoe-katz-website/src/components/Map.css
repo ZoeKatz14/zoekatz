@@ -1,8 +1,19 @@
 .map-content {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
+        margin: auto;
+        border: 15px solid #8896AB;
+        border-radius: 25px;
 }
 svg {
         max-width: 100%;
         height: auto;
+        display: inline-block;
+        vertical-align: middle;
+      }
+path {
+        fill: #8896AB;
+      }
+body {
+        margin: 0;
       }
