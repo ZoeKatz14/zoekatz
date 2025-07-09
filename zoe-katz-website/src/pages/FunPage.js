@@ -11,13 +11,16 @@ const FunPage = () => {
         <h1>reading around the world</h1>
       </header>
       <main>
-        <div>
+        <div className="world-map">
           <Map setTooltipContent={setContent}/>
-          <Tooltip id="my-tooltip">{content}</Tooltip>
+          <Tooltip id="my-tooltip" className="book-tooltip">{content}</Tooltip>
           {/* To show up on the page under the map as well: {content} */}
         </div>
-       <p> You can pan and zoom on the map above! To pan, drag your mouse. To zoom, scroll up or down. 
-          <br></br>When you hover over a country, you can see its name. </p>      
+       <p> These are the books I have currently finished in my pursuit to read a book from every country around the world.
+          <br></br> Hover over the dark brown countries to see what book I read. 
+          <br></br> 
+          <br></br>p.s. You can pan and zoom! To pan, drag your mouse. To zoom, scroll up or down.    
+        </p> 
        </main>
     </div>
   );
