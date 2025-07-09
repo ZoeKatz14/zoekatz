@@ -7,19 +7,18 @@ import Footer from './components/Footer';
 import ResearchPage from './pages/ResearchPage';
 import FunPage from './pages/FunPage';
 import NotFoundPage from './pages/NotFoundPage';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/zoekatz">
       <Navbar/>
         <Routes>      
-          <Route path="/" element={<Navigate to="/zoekatz" replace />}/>
-          <Route path="/zoekatz" element={<HomePage/>}/>
-          <Route path="/zoekatz/research" element={<ResearchPage/>}/>
-          <Route path="/zoekatz/playground" element={<FunPage/>}/>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/research" element={<ResearchPage/>}/>
+          <Route path="/playground" element={<FunPage/>}/>
           <Route path="*" element={<NotFoundPage />} /> 
           {/* Add more routes for other pages */}
           
