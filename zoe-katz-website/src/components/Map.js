@@ -153,10 +153,10 @@ const fillColor = (geo) => {
         const country = finishedBooks.find((d) => d.name === geo.properties.name);
       
         if (country) {
-          return "#6E615E";
+          return "#aabda0";
         }
       
-        return "#938581";
+        return "#beccc0";
 };
 
 const findBook = (geo) => {
@@ -205,18 +205,18 @@ const Map=({setTooltipContent})=>{
                                 style={{
                                         default: {
                                           fill: fillColor(geo),
-                                          outline: "#353535",
-                                          stroke: "#C5D5E4",
+                                          outline: "#5a8b5d",
+                                          stroke: "#6b93d6",
                                           strokeWidth: 0.5,
                                           vectorEffect: "non-scaling-stroke"
                                         },
                                         hover: {
-                                          fill: "#4D4442",
-                                          outline: "#353535"
+                                          fill: "#5b695d",
+                                          outline: "#6b93d6"
                                         },
                                         pressed: {
-                                          fill: "#E42",
-                                          outline: "#353535"
+                                          fill: "#E5a8b5d",
+                                          outline: "#6b93d6"
                                         }
                                       }}
                                 />

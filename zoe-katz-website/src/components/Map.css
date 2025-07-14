@@ -2,8 +2,9 @@
         max-width: 50%;
         height: auto;
         margin: auto;
-        border: 15px solid #8896AB;
+        border: 15px solid #6b93d6;
         border-radius: 25px;
+        background-color: #6b93d6;
 }
 svg {
         max-width: 100%;
@@ -11,9 +12,7 @@ svg {
         display: inline-block;
         vertical-align: middle;
       }
-path {
-        fill: #8896AB;
-      }
+
 body {
         margin: 0;
       }

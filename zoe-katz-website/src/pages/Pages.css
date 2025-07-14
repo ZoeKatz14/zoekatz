@@ -12,8 +12,9 @@
         column-gap: 30px;
       }
       img {
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        max-width: 30vw;
       }
       svg {
         max-width: 100%;

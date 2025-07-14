@@ -16,7 +16,7 @@ const Footer=()=>{
                                 <li className="footer-links" role="list">
                                         <div className='linkedin-logo'>
                                                 <a href="https://www.linkedin.com/in/zoe-katz-52184b1a1/">
-                                                <FaLinkedin size={30} color="#C13584" />
+                                                <FaLinkedin size={30} color="#C5D5E4" />
                                                 </a>
                                         </div>
                                         <div className='last-updated'>
