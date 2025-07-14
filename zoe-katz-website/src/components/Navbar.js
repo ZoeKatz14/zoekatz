@@ -11,7 +11,7 @@ const Navbar=()=>{
                              </a>
                         </div>
                         <div className="navbar-center">
-                                <li className="nav-links">
+                                <li className="nav-links" role="list">
                                         <div className='about'>
                                         <Link to="/">about</Link>
                                         </div>

@@ -181,7 +181,7 @@ const Map=({setTooltipContent})=>{
                 <ZoomableGroup 
                 center={[10, 0]} 
                 zoom={1} 
-                minZoom={1} maxZoom={10}
+                minZoom={1} maxZoom={20}
                 translateExtent={[
                         [0, 0],
                         [mapWidth, mapHeight]
@@ -207,7 +207,8 @@ const Map=({setTooltipContent})=>{
                                           fill: fillColor(geo),
                                           outline: "#353535",
                                           stroke: "#C5D5E4",
-                                          strokeWidth: 0.5
+                                          strokeWidth: 0.5,
+                                          vectorEffect: "non-scaling-stroke"
                                         },
                                         hover: {
                                           fill: "#4D4442",

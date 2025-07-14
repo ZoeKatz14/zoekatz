@@ -1,10 +1,34 @@
 .footer {
+        position: sticky;
+        top: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: #66768F;
         color: #C5D5E4;
         padding: 1rem;
+      }
+      
+      .footer-left {
+        font-size: 1rem;
+        color: #C5D5E4;
+        text-decoration: none;
+      }
+      
+      .footer-center .footer-links {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      
+      .footer-center .footer-links a {
+        color: #C5D5E4;
+        text-decoration: none;
+      }
+
+      .linkedin-logo {
+        margin: 0.5rem 0 1rem 0;
       }
 
       .email-link a {
